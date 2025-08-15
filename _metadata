@@ -1,0 +1,12 @@
+{
+  "description" : "I really hate FR polluting the fucking error log.\n\nAre you maybe, a mod developer, and when people bring you error logs, you have to sift through hundreds of these fucking errors because the FR developers just do not care to fix their fucking mod?\n\nAll they had to do was make it a patch into a new object in the species config, but noooo they had to add a file they check for that causes errors in the log constantly and make people report issues that aren't even caused by your mod!\n\nAll you need is to have https://github.com/OpenStarbound/OpenStarbound and have this mod installed and all those errors polluting the log go away",
+  "friendlyName" : "Fuck your race effects",
+  "link" : "steam://url/CommunityFilePage/3549581457",
+  "priority" : 9999,
+  "scripts" : {
+    "postLoad" : ["/fuckYourRaceEffects.lua"]
+  },
+  "steamContentId" : "3549581457",
+  "tags" : "Miscellaneous|User Interface|Character Improvements",
+  "version" : "1.0"
+}
